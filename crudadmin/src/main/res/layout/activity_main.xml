@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/normalText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="Vehicle Information!"
+        android:textColor="@color/green"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/uploadbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/green_bg"
+        app:layout_constraintTop_toBottomOf="@id/normalText5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="250dp"
+        android:backgroundTint="@color/green"
+        android:text="Upload"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/updatebtn1"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        app:layout_constraintTop_toBottomOf="@id/uploadbtn1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:text="Update"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/deletebtn1"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        app:layout_constraintTop_toBottomOf="@id/uploadbtn1"
+        app:layout_constraintStart_toEndOf="@id/updatebtn1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:text="Delete"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "30126085892",
+    "project_id": "crudusingfirebaserd",
+    "storage_bucket": "crudusingfirebaserd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30126085892:android:78ec53fdd2e9cf77c3e251",
+        "android_client_info": {
+          "package_name": "com.example.crudusingfirebaserd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8hLtm9boyGAVKfG3QNK5ys_dlxbd8Ys8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
