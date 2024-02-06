@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.crudadmin.databinding.ActivityUpdateInfoBinding
-import com.example.crudadmin.databinding.ActivityUploadBinding
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
@@ -26,9 +25,6 @@ class UpdateInfo : AppCompatActivity() {
             val updateRTo = binding.updateVehicleRto1.text.toString()
 
             updateData(updateVNum,updateOName,updateBrand,updateRTo)
-
-
-
         }
 
     }
@@ -51,9 +47,6 @@ class UpdateInfo : AppCompatActivity() {
             Toast.makeText(this,"Unable to update",Toast.LENGTH_LONG).show()
         }
 
-
     }
-
-
 
 }
