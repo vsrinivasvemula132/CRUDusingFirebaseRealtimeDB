@@ -32,6 +32,7 @@ class UploadActivity : AppCompatActivity() {
             val vehicleData = VehicleData(ownerName1,vehicleBrand1,vehicleRto1,vehicleNumber1)
 
             //we'll create a path like there we'll be a child inside a child we store the data.
+            //child name always unique
             //inside vehicle number it'll store other data like name,brand...etc.
             //here we use 2 methods 1]for success 2]for failure
             //for store , we use setValue() method
